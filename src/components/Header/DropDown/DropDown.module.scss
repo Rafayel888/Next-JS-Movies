@@ -1,0 +1,19 @@
+@import '../../../styles/variable';
+
+
+.wrapper_sections{
+  display: flex;
+
+  .section_2{
+    margin: 20px 90px 0 75px;    
+  }
+  .section_3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  
+}
+
+

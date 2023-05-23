@@ -1,0 +1,41 @@
+{
+  "films":{
+    "section_1":[
+      {
+        "id":1,
+        "title":"Жанры",
+        "items":[
+          {"id":1,"titleItem":"Артхаус"},
+          {"id":2,"titleItem":"Боевики"},
+          {"id":3,"titleItem":"Вестерн"},
+          {"id":4,"titleItem":"Военные"},
+          {"id":5,"titleItem":"Детективы"},
+          {"id":6,"titleItem":"Для всей семьи"},
+          {"id":7,"titleItem":"Для детей"},
+          {"id":8,"titleItem":"Документальные"},
+          {"id":9,"titleItem":"Драмы"},
+          {"id":10,"titleItem":"Исторические"},
+          {"id":11,"titleItem":"Катастрофы"}
+        ]
+      }
+    ],
+    "section_2":[
+      {
+        "id":2,
+        "items":[
+					{ "id": 11, "titleItem": "Комедии" },
+					{ "id": 12, "titleItem": "Криминальные" },
+					{ "id": 13, "titleItem": "Мелодрамы" },
+					{ "id": 14, "titleItem": "Мистические" },
+					{ "id": 15, "titleItem": "По комиксам" },
+					{ "id": 16, "titleItem": "Приключения" },
+					{ "id": 17, "titleItem": "Спорт" },
+					{ "id": 18, "titleItem": "Триллеры" },
+					{ "id": 19, "titleItem": "Ужасы" },
+					{ "id": 20, "titleItem": "Фантастика" },
+					{ "id": 21, "titleItem": "Фэнтези" }
+				]
+      }
+    ]
+  }
+}

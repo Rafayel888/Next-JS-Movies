@@ -1,0 +1,181 @@
+@import '../../styles/variable';
+
+#header_wrap {
+	display: flex;
+	flex-direction: column;
+	
+}
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.123);
+	padding: 0 12px 0 12px;
+	background-color: $body-background-color;
+	transition: 0.2s ease-in;
+	&__left {
+		display: flex;
+	}
+
+	&__right {
+	}
+
+	
+
+	.nav {
+		&__link,
+		&__link_down {
+			padding: 10px 0 10px 0;
+			color: rgba(255, 255, 255, 0.48);
+			font-family: 'iviSans';
+			font-weight: 600;
+			font-size: 15px;
+			transition: all ease 0.5s;
+
+			&:hover {
+				color: white;
+				cursor: pointer;
+			}
+		}
+		&__item_down {
+			height: 71px;
+			padding-top: 28px;
+			&:hover {
+				.wrapper {
+					transition: 0.2s ease-in;
+					top: 70px;
+				}
+			}
+		}
+	}
+}
+.wrapper {
+		display: flex;
+		position: absolute;
+		width: 100%;
+		right: 0;
+		top: -325px;
+		z-index: -1;
+		background-color: $mainColor1;
+		border-radius: 0 0 15px 15px;
+		padding: 32px;
+		transition: 0.2s ease-in;
+	}
+.active {
+	.header {
+		background-color: $mainColor1;
+		border-radius: 15px 15px 0 0;
+		transition: 0.2s ease-in;
+	}
+	.searchText {
+		background-color: transparent;
+	}
+	.searchButton {
+		background-color: transparent;
+	}
+	.ringButton {
+		background-color: $mainColor1;
+	}
+	.accountButton {
+		background-color: $mainColor1;
+	}
+}
+
+.logotype {
+	width: 66px;
+	height: 48px;
+	margin-right: 25px;
+}
+
+.nav {
+	display: flex;
+
+	&__list {
+		display: flex;
+		align-items: center;
+	}
+
+	&__item,
+	&__item_down {
+		margin: 0 9px 0 9px;
+	}
+}
+
+.actions {
+	&__list {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 18px;
+	}
+
+	&__item {
+	}
+}
+
+// В компонент button
+.watchButton {
+	color: white;
+	background-color: #ea003d;
+	padding: 8px 11px;
+	border-radius: 8px;
+	font-size: 13px;
+	font-family: iviSans;
+	font-weight: 600;
+}
+
+.searchText {
+	filter: brightness(0.5);
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	color: white;
+	background-color: #191329;
+	transition: all ease 0.5s;
+
+	&:hover {
+		filter: brightness(1);
+	}
+}
+
+.searchButton {
+	width: 35px;
+	height: 35px;
+	background-color: #191329;
+}
+
+.ringButton {
+	filter: brightness(0.5);
+	width: 20px;
+	height: 20px;
+	background-color: #191329;
+	transition: all ease 0.5s;
+
+	&:hover {
+		filter: brightness(1);
+	}
+}
+
+.buttonWrapper {
+	filter: brightness(0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 48px;
+	height: 48px;
+	border: 2px solid white;
+	border-radius: 8px;
+	transition: all ease 0.5s;
+
+	&:hover {
+		filter: brightness(1);
+	}
+}
+
+.accountButton {
+	width: 23px;
+	height: 23px;
+	background-color: #191329;
+}

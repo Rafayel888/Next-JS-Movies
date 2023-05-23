@@ -1,0 +1,13 @@
+@import '../../../styles/variable';
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $violet;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all ease 0.5s;
+  &:hover {
+    background-color: $btnHover;
+  }
+}
